@@ -1,0 +1,158 @@
+
+.home {
+  background-image: url('../images/background-dark.png');
+  background-repeat: repeat;
+  background-size: contain;
+  min-height: 100vh;
+  
+  .content {
+    background-color: rgba($light-purple, 0.95);
+    @include grid-container;
+    min-height: calc(100vh - 75px);
+  }
+
+  .header {
+    @include grid-column(12);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+  
+    @include grid-media($medium) {
+      margin-top: 35px;
+      flex-direction: row !important;
+    }
+  }
+
+  .imgLogo {
+    display: none;
+    @include grid-media($medium) {
+      display: block !important;
+      height: 170px;
+      margin-right: 30px;
+    }
+    @include grid-media($large) {
+      height: 140px;
+    }
+  }
+
+  .txtLogo {
+    height: 80px;
+    @include grid-media($large) {
+      height: 110px;
+    }
+  }
+
+  .slogan {
+    font-family: 'PeaceSans';
+    font-size: 13pt;
+    color: white;
+    @include grid-column(10);
+    @include grid-shift(1);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @include grid-media($medium) {
+      font-size: 16pt;
+    }
+  }
+
+  .youtube-container {
+    @include grid-column(10);
+    @include grid-shift(1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include grid-media($large) {
+      padding-top: 40px;
+    }
+  }
+
+  .youtube {
+    height: 195px;
+    width: 350px;
+    @include grid-media($small) {
+      height: 266px;
+      width: 500px;
+    }
+    @include grid-media($medium) {
+      height: 300px;
+      width: 562px;
+    }
+    @include grid-media($large) {
+      height: 350px;
+      width: 658px;
+    }
+  }
+
+  .app-stores {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    @include grid-media($small) {
+      padding-top: 30px;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    @include grid-media($large) {
+      padding-top: 60px;
+      padding-bottom: 30px;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .app-store {
+      width: 165px;
+    }
+
+    .goog-play {
+      margin-top: 5px;
+      @include grid-media($small) {
+        margin-top: 0px;
+        margin-left: 20px;
+      }
+      width: 190px;
+    }
+
+  }
+
+  .footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgba($light-purple, 0.95);
+    color: $white;
+    font-family: 'PeaceSans';
+    font-size: 11pt;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include grid-media($small) {
+      flex-direction: row;
+      align-content: center;
+      justify-content: center;
+    }
+
+    span {
+      padding-bottom: 10px;
+      padding-left: 25px;
+      @include grid-media($small) {
+        padding-bottom: 0px;
+      }
+    }
+    .tc-link {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+}

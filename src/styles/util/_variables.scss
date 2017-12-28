@@ -1,0 +1,30 @@
+// Colors:
+$white: #FFFFFF;
+$dark-purple: #111237;
+$light-purple: #36399A;
+
+$primary-color: $light-purple;
+
+
+// Breakpoints:
+// $small: 640px;
+// $medium: 980px;
+// $large: 1280px;
+
+$small: (
+  columns: 12,
+  gutter: 50px,
+  media: 640px,
+);
+
+$medium: (
+  columns: 12,
+  gutter: 50px,
+  media: 980px,
+);
+
+$large: (
+  columns: 12,
+  gutter: 50px,
+  media: 1280px,
+);

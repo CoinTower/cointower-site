@@ -1,0 +1,41 @@
+{
+  "name": "Cointower-Site",
+  "description": "cointower.io website",
+  "version": "1.0.0",
+  "author": "Nathan Horrigan <NathHorrigan@gmail.com>",
+  "dependencies": {
+    "bourbon-neat": "https://github.com/thoughtbot/neat",
+    "breakpoint-sass": "^2.7.1",
+    "gatsby": "^1.9.145",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.15",
+    "iframe-resizer": "^3.5.15",
+    "module-alias": "^2.0.3",
+    "normalize-scss": "^7.0.0",
+    "react-favicon": "^0.0.11",
+    "react-iframe-resizer-super": "^0.2.0",
+    "react-player": "^0.25.3",
+    "react-youtube": "^7.5.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@styles": "./src/styles"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.9.2"
+  }
+}
