@@ -16,11 +16,11 @@ const IndexPage = () => (
         <img className="txtLogo" src={TextLogo} alt="Logo" />
       </div>
     
-      <span className="slogan">PLAY ROCK PAPER SCISSORS, WIN A MILLION DOLLARS.</span>
+      <span className="slogan">PLAY ROCK PAPER SCISSORS, WIN REAL CASH.</span>
 
       <div className="youtube-container">
         <YouTube
-          videoId={'QEkC_Q1ERyk'}                  // defaults -> null                  // defaults -> null
+          videoId={'QEkC_Q1ERyk'}
           className="youtube" />
       </div>
 

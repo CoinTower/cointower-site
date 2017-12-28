@@ -40,7 +40,7 @@
 
   .txtLogo {
     height: 80px;
-    @include grid-media($large) {
+    @include grid-media($xlarge) {
       height: 110px;
     }
   }
@@ -65,7 +65,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @include grid-media($large) {
+    @include grid-media($xlarge) {
       padding-top: 40px;
     }
   }
@@ -81,7 +81,7 @@
       height: 300px;
       width: 562px;
     }
-    @include grid-media($large) {
+    @include grid-media($xlarge) {
       height: 350px;
       width: 658px;
     }
@@ -102,7 +102,7 @@
       flex-direction: row;
     }
 
-    @include grid-media($large) {
+    @include grid-media($xlarge) {
       padding-top: 60px;
       padding-bottom: 30px;
       justify-content: center;
