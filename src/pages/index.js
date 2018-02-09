@@ -46,6 +46,10 @@ const IndexPage = () => (
           Privacy
         </a>
       </span>
+      <span className="copy">
+        <a className="tc-link" href="mailto:contact@cointower.io">
+          Privacy
+        </a></span>
     </div>
   
   </div>
