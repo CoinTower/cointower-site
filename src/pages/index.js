@@ -38,11 +38,11 @@ const IndexPage = () => (
     <div className="footer">
       <span className="copy">Copyright Spanky & Co. 2017</span>
       <span className="tc-links">
-        <a className="tc-link" href="https://firebasestorage.googleapis.com/v0/b/cointower-4502d.appspot.com/o/legal%2FTerms-of-Service.pdf?alt=media&token=8e1115da-5e00-4507-964c-0f326f2b959d">
+        <a className="tc-link" href="https://firebasestorage.googleapis.com/v0/b/cointower-4502d.appspot.com/o/legal%2FTerms-of-Service.pdf?alt=media&token=d1cf53ef-01b8-4191-b665-5440d9e110fb">
           Terms
         </a>
         <span> and </span>
-        <a className="tc-link" href="https://firebasestorage.googleapis.com/v0/b/cointower-4502d.appspot.com/o/legal%2FPrivacy-Policy.pdf?alt=media&token=03b8e906-703e-4626-af86-3246d184d328">
+        <a className="tc-link" href="https://firebasestorage.googleapis.com/v0/b/cointower-4502d.appspot.com/o/legal%2FPrivacy-Policy.pdf?alt=media&token=a87bbbc2-5bbd-4b3b-993e-cc313e43a52f">
           Privacy
         </a>
       </span>
